@@ -35,7 +35,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: auto; }
 
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -197,6 +197,16 @@ h1 {
 .card p { margin: 0 0 14px; color: var(--muted); font-size: 15.5px; }
 
 .meta { margin: 0 0 10px; color: var(--muted); font-size: 13px; }
+
+/* ---------- projekti (kompaktnejsi prikaz) ---------- */
+
+#projekti .grid { gap: 16px; }
+#projekti .section-head { margin-bottom: 18px; }
+#projekti .card img { aspect-ratio: 4 / 3; object-fit: cover; }
+#projekti .card-body { padding: 12px 14px 14px; }
+#projekti .card h3 { margin: 0 0 2px; font-size: 1.02rem; }
+#projekti .card p { margin: 0 0 10px; font-size: 14px; }
+#projekti .meta { margin: 0 0 8px; font-size: 12.5px; }
 
 .tags {
   display: flex;
